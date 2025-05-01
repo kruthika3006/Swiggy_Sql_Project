@@ -1,5 +1,5 @@
 # Swiggy_Sql_Project
-# SQL Project: Data Analysis for Swiggy - A Food Delivery Company
+# Swiggy Data Analysis - A Food Delivery Company
 
 ![swiggy Logo](https://github.com/kruthika3006/Swiggy_Sql_Project/blob/main/swiggy-logo.png)
 
