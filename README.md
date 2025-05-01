@@ -144,7 +144,7 @@ select
     limit 1;
 
     create index idx_customername on customers(customer_name);
-    ```
+```
 ### Q3. Order Value Analysis
 -- Find the average order value (AOV) per customer who has placed more than 750 orders. 
 -- Return: customer_name, aov (average order value).
