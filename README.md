@@ -19,6 +19,7 @@ This project demonstrates my SQL problem-solving skills through the analysis of 
 CREATE DATABASE Swiggy_db;
 ```
 -- 1. Creating Tables
+```sql
 create table customers (
     Customer_id int primary key,
     Customer_name varchar(30),
@@ -58,11 +59,11 @@ create table deliveries(
     foreign key (order_id) references orders(order_id),
     foreign key (rider_id) references riders(rider_id)
 );
-
+```
 ## Data Import
 
 ## Data Cleaning and Handling Null Values
-
+```sql
 select * from customers
 where customer_name is null or reg_date is null;
 
@@ -79,7 +80,7 @@ where rider_name  is null or sign_up is null;
 
 select * from deliveries
 where order_id  is null or delivery_status is null or delivery_time is null or rider_id is null;
-
+```
 ## Feature Engineering
 
 set sql_safe_updates=0;
