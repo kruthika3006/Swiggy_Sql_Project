@@ -1,6 +1,8 @@
 # Swiggy_Sql_Project
 # SQL Project: Data Analysis for Swiggy - A Food Delivery Company
 
+[swiggy Logo](https://github.com/kruthika3006/Swiggy_Sql_Project/blob/main/swiggy-logo.png)
+
 ## Overview
 
 This project demonstrates my SQL problem-solving skills through the analysis of data for Swiggy, a popular food delivery company in India. The project involves setting up the Database, Importing data, Handling null values, and Solving a variety of business problems using complex SQL queries, Creating Stored Procedures, Query Optimization and generatiing Insights and Actionable recommendation.
