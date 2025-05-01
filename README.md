@@ -14,6 +14,9 @@ This project demonstrates my SQL problem-solving skills through the analysis of 
 - **Stored Procedure:** Creating Stored Procedures
 - **Query Optimization:** Optimized the queries using index and best practices
 
+## ERD
+![ERD](https://github.com/kruthika3006/Swiggy_Sql_Project/blob/main/ERD.png)
+
 ## Database Setup
 ```sql
 CREATE DATABASE Swiggy_db;
