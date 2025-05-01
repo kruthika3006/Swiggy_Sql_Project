@@ -185,7 +185,7 @@ create index idx_deliverystatus on deliveries(delivery_status);
 ### Q6. Restaurant Revenue Ranking
 -- Rank restaurants by their total revenue from the last 2 year.
 -- Return: restaurant_name, total_revenue, and their rank within their city.
-```
+```sql
 select restaurants.Restaurant_id, Restaurant_name,city, sum(total_amount) as revenue,
 dense_rank() over( partition by city order by sum(total_amount)  desc ) as rnk
 from orders inner join restaurants 
