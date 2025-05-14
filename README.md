@@ -477,10 +477,10 @@ call customer_details(1);
 ```
 ## Query Optimization 
 
--- Indexed customer_name, order_date, order_status, delivery_status columns
--- Avoided SELECT *, given proper columns in select statement
--- Used CTE’s and JOINS over subqueries 
--- Used JOINS wisely
+- Indexed customer_name, order_date, order_status, delivery_status columns
+- Avoided SELECT *, given proper columns in select statement
+- Used CTE’s and JOINS over subqueries 
+- Used JOINS wisely
 
 ## Key Insights 
 
